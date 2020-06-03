@@ -13,11 +13,16 @@ include Paramable
   @@artists = []
 
   def initialize
+  #.initialize is an instance method
+  #inside .init, self refers to the instance method of the class on which you are operating. but .all is a class method
+  #can call self.class inside initialize.
+  #This is code that is responsible for telling a class to keep track of its own instances.
+  #how can we put class methods and instance methods in the same module? NESTING MODULES!
       super
     @songs = []
   end
 
-  def self.all #wraps the class variable 
+  def self.all #wraps the class variable
     @@artists
   end
 
