@@ -1,6 +1,9 @@
+#define a module 
+
 module Memorable
   module ClassMethods
 
+#define two class methods:
 def reset_all
      self.all.clear
    end
