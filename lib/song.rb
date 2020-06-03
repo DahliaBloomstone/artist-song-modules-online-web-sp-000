@@ -1,7 +1,7 @@
 require 'pry'
 
 class Song
-  extend Memorable::ClassMethods
+  extend Memorable::ClassMethods #self keyword is omitted when defining class methods inside modules 
   include Memorable::InstanceMethods
   extend Findable
   include Paramable
