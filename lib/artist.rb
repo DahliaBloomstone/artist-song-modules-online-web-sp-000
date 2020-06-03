@@ -17,7 +17,7 @@ include Paramable
     @songs = []
   end
 
-  def self.all
+  def self.all #wraps the class variable 
     @@artists
   end
 
