@@ -1,4 +1,4 @@
-#define a module 
+#define a module
 
 module Memorable
   module ClassMethods
