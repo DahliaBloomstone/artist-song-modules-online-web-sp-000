@@ -19,7 +19,8 @@ include Paramable
   #can call self.class inside initialize.
   #This is code that is responsible for telling a class to keep track of its own instances.
   #how can we put class methods and instance methods in the same module? NESTING MODULES!
-      super
+  #init method also responsible for setting the @songs instance variable equal to an empty array.
+    super #inheritance. will execute any code placed inside the super class' method of the same name, then execute any code inside of the child class' method 
     @songs = []
   end
 
