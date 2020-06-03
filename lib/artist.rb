@@ -2,6 +2,7 @@ require 'pry'
 
 class Artist
 
+#Namespacing: Parent::Child
 extend Memorable::ClassMethods
 include Memorable::InstanceMethods
 extend Findable
